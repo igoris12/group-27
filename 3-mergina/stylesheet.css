@@ -1,76 +1,33 @@
-p, div, main, body {
+body {background-color: #F8F8F8;
+margin: 0;
+}
+
+header { display: inline-block; background-color: khaki;
     display: inline-block;
-    margin: 0;
-}
-
-#main {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-}
-
-#div1 {
-    display: inline-block;
-    width: 40%;
-    margin-top: 200px;
-    margin-left: 5%;
-    float: left;
-}
-
-#div2 {
-    display: inline-block;
-    width: 50%;
-    float: right;
-    text-align: right;
-    margin-top: 50px;
-    margin-right: 50px;
-   
+    width: 1200px;
+    margin-left: calc(50% - 600px);
 
 }
 
-img {
-    width: 50%;
-    margin-top: 20px;
-    float: right;
-}
+    #logo{ display: inline-block;
+ 
 
-#p1 {
-    width: 100%;
-    font-size: 100px;
-    color: #9E9E9E;
-    
-    
-}
-
-#p2 {
-    width: 100%;
-    font-size: 30px;
-    color: #9E9E9E;
 
 }
 
-body {
-    background-color: #F8F8F8;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+nav { display: inline-block;
+
 }
 
-a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #9E9E9E;
+main { display: inline-block; background-color: lawngreen;
+    width: 1200px;
+    margin-left: calc(50% - 600px);
 }
 
-button {
-    background-color: white;
-    border-radius: 12px;
-    color: #9E9E9E;
-    border: 3px solid #9E9E9E;
-    padding-left: 15px;
-    padding-right: 15px;
-    
+div { display: inline-block;
+
 }
 
- button:hover{
-    background-color: #e7e7e7;
-    color: white;
+#img { display: inline-block;
+
 }
