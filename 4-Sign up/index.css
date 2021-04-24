@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 button {
     background-color: blue;
 }
@@ -17,8 +21,52 @@ button {
     width: 700px;
     height: 570px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+    
+
 }
 
 .left-modal {
     background-color: royalblue;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    
+}
+
+#p1 {
+    display: block;
+    font-size: 40px;
+    margin-right: 40px; 
+     
+}
+
+.a1 {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+p {
+    display: inline-block;
+}
+
+.right-modal {
+    background-color: saddlebrown;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: 50px;
+
+}
+
+form {
+
 }
