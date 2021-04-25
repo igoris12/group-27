@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 <body>
 <div>
-    <button>sign up</button>
+    <button id="button" onclick="openSign()">sign up</button>
 </div>
 
 <div id="box">
@@ -21,7 +21,7 @@
     </div>
 
     <div class="right-modal">
-        <div class="close">+</div>
+        <div class="close" onclick="closeSign()">+</div>
         <form action="#" id="form">
             <label for="user" class="label">Username</label>
             <input type="text" class="input">
@@ -41,6 +41,17 @@
     </div>
 
 </div>
+
+    <script> 
+        function openSign() {
+            document.getElementById("box").style.display = "flex";
+        };
+        
+        function closeSign() {
+        document.getElementById("box").style.display = "none";
+        };
+        </script>
+
     
 </body>
 </html>
