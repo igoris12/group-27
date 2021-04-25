@@ -49,5 +49,38 @@ body {
     background-color: white;
     width: 350px;
     height: 400px;
+    
 }
 
+#form {
+    margin-top: 50px;
+    
+}
+
+.label {
+    display: block;
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-size: small;
+    color: gray;
+    
+}
+
+.input {
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    padding-right: 80px;
+    border:outset;
+    
+
+}
+
+#bottom {
+    text-align: center;
+}
+
+.bottom {
+    display: inline-block;
+    
+}
