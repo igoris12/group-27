@@ -54,12 +54,11 @@ body {
 
 #form {
     margin-top: 50px;
-    
+    margin-left: 70px;
 }
 
 .label {
     display: block;
-    margin-left: 70px;
     text-transform: uppercase;
     font-size: small;
     color: gray;
@@ -68,10 +67,10 @@ body {
 
 .input {
     display: block;
-    margin-left: 70px;
     margin-bottom: 30px;
     padding-right: 80px;
-    border:outset;
+    border: none;
+    border-bottom: 1px solid gray;
     
 
 }
@@ -82,5 +81,25 @@ body {
 
 .bottom {
     display: inline-block;
+}
+
+button {
+    border-radius: 15px;
+    background-color: royalblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+
     
+}
+#bottom>p {
+    margin-left: 10px;
+    color: grey;
+}
+
+#bottom>a {
+    text-decoration: none;
+    color: royalblue;
 }
