@@ -72,10 +72,6 @@ body {
     border-bottom: 1px solid gray;
 }
 
-#bottom {
-    text-align: center;
-}
-
 .bottom {
     display: inline-block;
 }
@@ -115,3 +111,14 @@ button {
     border: none;
 }
 
+.inbutton {
+    border-radius: 15px;
+    background-color: royalblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: 0;
+
+}
