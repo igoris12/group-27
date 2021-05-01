@@ -11,38 +11,54 @@ body * {
 header{
     background-color: aqua;
     width: 100%;
+    text-align: center;
 }
 
 .header {
     background-color: blue;
     width: 800px;
-    height: 300px;
+    
    display: inline-block;
 }
 
 #img1 {
-
-
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 h1{
+   text-transform: uppercase;
+   margin-bottom: 20px;
 
 }
 
-p {
+.firstp {
+   
 
 }
 
-#timer {
+.time {
+    display:inline-block ;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+#days {
 
 }
 
 form {
+    margin-bottom: 20px;
+    
+}
+
+.hed-input {
 
 }
 
 main {
-
+    background-color:blueviolet;
+    
 }
 
 .left-modal {
@@ -54,9 +70,10 @@ main {
 }
 
 footer {
-
+        background-color: aquamarine;
 }
 
 .footer {
 
 }
+
