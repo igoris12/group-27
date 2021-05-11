@@ -3,21 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "live-server --port=3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/front-end-by-rimantas/27-grupe-coming-soon.git"
-  },
-  "author": "Igoris Ivanovas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/front-end-by-rimantas/27-grupe-coming-soon/issues"
-  },
-  "homepage": "https://github.com/front-end-by-rimantas/27-grupe-coming-soon#readme",
   "dependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
