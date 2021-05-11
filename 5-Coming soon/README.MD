@@ -3,24 +3,22 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Coming soon  
+# Coming soon
 
 _27 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
-.
 
 Site published at https://igoris12.github.io/group-27/5-Coming%20soon/
 
-Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
+Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
 ## Project features
 
-- Github pages
-- png images
-- fixed width content
-
-- desktop only
+- responsive design
+- repetitive content is generated/rendered;
+- css animations
+- NodeJS
 
 ## Authors
 
