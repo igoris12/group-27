@@ -1,5 +1,5 @@
 {
-  "name": "8-coming-soon",
+  "name": "5-coming-soon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/front-end-by-rimantas/27-grupe-coming-soon.git"
   },
-  "author": "Rimantas Belovas",
+  "author": "Igoris Ivanovas",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/front-end-by-rimantas/27-grupe-coming-soon/issues"
