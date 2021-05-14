@@ -1,3 +1,3 @@
-import {test} from "../js/components/clock.js"
+import {renderClock} from "../js/components/clock/clock.js"
 
-test()
+renderClock("#hero_clock")
