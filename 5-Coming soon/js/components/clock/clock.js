@@ -1,9 +1,11 @@
-import {formatNumber} from './formatNumber.js'
+import { formatNumber } from './formatNumber.js';
+import { calcDeadline } from './calcDeadline.js';
+import { updateClock } from './updateClock.js';
 
 function renderClock(selector) {
-   const DOM = document.querySelector(selector);
+   const DOM = document.querySelector(selector, targetDate);
 
-   const time = [432, 9, 37, 39];
+   const time = calcDeadline(targetDate);
    const titles = ['days', 'hours', 'minutes', 'seconds'];
    let HTML = '';
    for (let i = 0; i<time.length; i++) {
