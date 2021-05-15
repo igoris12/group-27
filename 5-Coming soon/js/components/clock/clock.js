@@ -21,7 +21,7 @@ function renderClock(selector, targetDate) {
    
    setInterval(function () {
        updateClock(timeAllValue, calcDeadline(targetDate))
-   }, 1000);
+   }, 100);
    
 }
 
