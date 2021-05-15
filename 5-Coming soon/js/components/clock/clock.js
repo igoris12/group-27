@@ -4,7 +4,6 @@ import { updateClock } from './updateClock.js';
 
 function renderClock(selector, targetDate) {
    const DOM = document.querySelector(selector);
-
    const time = calcDeadline(targetDate);
    const titles = ['days', 'hours', 'minutes', 'seconds'];
    let HTML = '';
@@ -17,6 +16,10 @@ function renderClock(selector, targetDate) {
    }
 
    DOM.innerHTML = HTML;
+
+   const timeAllValue = DOM.querySelectorAll('.value');
+   
+   updateClock(timeAllValue, time)
 }
 
 export{renderClock}; 
