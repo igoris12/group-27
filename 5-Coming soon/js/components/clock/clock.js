@@ -2,8 +2,8 @@ import { formatNumber } from './formatNumber.js';
 import { calcDeadline } from './calcDeadline.js';
 import { updateClock } from './updateClock.js';
 
-function renderClock(selector) {
-   const DOM = document.querySelector(selector, targetDate);
+function renderClock(selector, targetDate) {
+   const DOM = document.querySelector(selector);
 
    const time = calcDeadline(targetDate);
    const titles = ['days', 'hours', 'minutes', 'seconds'];
