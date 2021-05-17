@@ -3,6 +3,8 @@
 @import './basic/variables.css';
 @import './basic/layout.css';
 
+@import './3er-party/font-awesome.min.css';
+
 /* component styles */
 @import './components/button.css';
 @import './components/clock.css';
@@ -78,4 +80,28 @@ main p a {
 /* FOOTER */
 footer.container {
   padding-top: 0;
+}
+
+.container .socials {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.socials .fa {
+  display: inline-block;
+  color: var(--color-light);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.socials .fa:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  transition: 0.5s;
 }
