@@ -80,6 +80,7 @@ main p a {
 /* FOOTER */
 footer.container {
   padding-top: 0;
+ 
 }
 
 .container .socials {
@@ -88,6 +89,7 @@ footer.container {
   flex-wrap: wrap;
   gap: 5px;
   border-bottom: 1px solid #fff;
+   position: relative;
 }
 
 .socials .socials {
@@ -106,4 +108,10 @@ footer.container {
   background-color: var(--color-light);
   color: var(--color-primary);
   transition: 0.5s;
+}
+
+.back-to-top {
+  position: absolute;
+  top: -26px;
+  right: -15px;
 }
