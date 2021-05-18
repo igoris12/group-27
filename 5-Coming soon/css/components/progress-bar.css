@@ -1,3 +1,35 @@
-.progress-bar {
-    
+.porgress-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-grey);
+  }
+
+.progress-bar > .bottom {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--color-grey);
+}
+
+.progress-bar .bottom > .progress {
+background-color: var(--color-primary);
+ width: 100%;
+ height: 6px;
+ animation: loding 2s forwards;
+ transform: scale(0);
+ transform-origin: left;
+}
+
+@keyframes loding {
+    0%{
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }

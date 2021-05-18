@@ -6,7 +6,7 @@ function socials(selector, data) {
 
     for (const socials of data) {
         if (socials.active) {
-        HTML += `<a href=${socials.href} target="_blank" class="fa fa-${socials.icon}" ></a>`
+        HTML += `<a href=${socials.href} target="_blank" class="socials fa fa-${socials.icon}" ></a>`
         }
         
     }
