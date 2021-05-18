@@ -1,0 +1,30 @@
+.mouse {
+    display: inline-block;
+    width: 35px;
+    height: 55px;
+    border: 3px solid var(--color-light);
+    border-radius: 20px;
+    
+}
+
+.wheel {
+    display: inline-block;
+    width: 2px;
+    height: 6px;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+    margin-top: 15px;
+    animation: scrolling 2s infinite;
+    border-radius: 1px;
+}
+
+@keyframes scrolling {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(15px);
+        opacity: 0;
+    }   
+}
