@@ -85,11 +85,12 @@ footer.container {
 .container .socials {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 5px;
   border-bottom: 1px solid #fff;
 }
 
-.socials .fa {
+.socials .socials {
   display: inline-block;
   color: var(--color-light);
   width: 40px;
@@ -98,9 +99,10 @@ footer.container {
   text-align: center;
   line-height: 40px;
   text-decoration: none;
+  border: 0;
 }
 
-.socials .fa:hover {
+.socials .socials:hover {
   background-color: var(--color-light);
   color: var(--color-primary);
   transition: 0.5s;

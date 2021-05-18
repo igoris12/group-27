@@ -5,7 +5,10 @@ function socials(selector, data) {
     let HTML = '';
 
     for (const socials of data) {
-        HTML += `<a href=${socials.href} target="_blank" class="fa fa-${socials.icon}" ></a>`
+        if (socials.active) {
+        HTML += `<a href=${socials.href} target="_blank" class="socials fa fa-${socials.icon}" ></a>`
+        }
+        
     }
 
     //result return
