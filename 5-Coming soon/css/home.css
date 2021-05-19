@@ -159,7 +159,5 @@ footer > .row a {
   .triple > p + p::before {
     display: none;
   }
-  a {
-    
-  }
+
 }
