@@ -53,6 +53,16 @@
   color: var(--color-grey);
 }
 
+.form-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* MAIN */
 .left-column,
 .right-column {
@@ -75,6 +85,32 @@ main p {
 main p a {
   color: var(--color-secondary);
   text-decoration: none;
+}
+
+.form-column {
+  display: inline-block;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.form-top1 {
+  width: 50%;
+  float: left;
+}
+
+.form-top2 {
+  width: 45%;
+  float: right;
+}
+
+.button-mane {
+  margin-top: 50px;
+  float: right;
+}
+
+.formMess {
+  padding-bottom: 40px;
 }
 
 /* FOOTER */
@@ -159,7 +195,5 @@ footer > .row a {
   .triple > p + p::before {
     display: none;
   }
-  a {
-    
-  }
+
 }

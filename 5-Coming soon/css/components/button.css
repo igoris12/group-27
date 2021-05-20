@@ -10,6 +10,7 @@
     cursor: pointer;
     box-shadow: 0 1px 4px #0002;
     transition: 0,3s;
+    width: auto;
 }
 
 .btn-round {
