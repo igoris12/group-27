@@ -9,21 +9,21 @@ _27 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/27-grupe-portfolio-docland/
+Site published at: https://igoris12.github.io/group-27/29-portfolio-docland/
 
 Design: https://themelooks.org/demo/docland/html/home-course.html
 
 ## Project features
 
-- Github pages
-- multi-page
-- content rendering with JS
-- carousel
-- gallery
-- fontawesome icons
-- CSS animations
-- CSS import
-- JS import-export
+-   Github pages
+-   multi-page
+-   content rendering with JS
+-   carousel
+-   gallery
+-   fontawesome icons
+-   CSS animations
+-   CSS import
+-   JS import-export
 
 ## Authors
 
