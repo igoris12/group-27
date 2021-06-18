@@ -180,6 +180,27 @@ class Carousel1 {
             }
         });
 
+        setInterval(() => {
+            if (!this.animationInProgress) {
+                this.animationInProgress = true;
+                this.visibleItemIndex++;
+                this.carouselAnimarion();
+                if (this.data.list.length + this.itemsInScrean === this.visibleItemIndex) {
+                    setTimeout(() => {
+                        this.listDOM.style.transition = 'all 0s';
+                        this.visibleItemIndex = this.itemsInScrean;
+                        this.carouselAnimarion();
+                    }, this.animationDuration);
+                    setTimeout(() => {
+                        this.listDOM.style.transition = `all ${this.animationDuration}ms`;
+                    }, this.animationDuration + 20);
+                }
+                setTimeout(() => {
+                    this.animationInProgress = false;
+                }, this.animationDuration);
+            }
+        }, 4000)
+
 
     }
     //  Options
