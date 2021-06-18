@@ -1,0 +1,476 @@
+/* base import */
+@import './base/reset.css';
+@import './base/layout.css';
+@import './base/variables.css';
+@import './base/common.css';
+@import './base/paragraph.css';
+@import './base/image.css';
+@import './base/syllabus.css';
+@import './base/header.css';
+
+/* 3rd-party import */
+@import './3rd-party/font-awesome.min.css';
+
+/* components import */
+@import './components/button.css';
+@import './components/timer.css';
+@import './components/carouselLearn.css';
+/* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
+
+/* header start */
+
+/* header end */
+
+/* hero start */
+.hero {
+  background-color: aquamarine;
+}
+/* hero end */
+
+/* statistics start */
+.statistics {
+  text-align-last: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+p {
+  color: var(--color-paragraph);
+}
+/* statistics end */
+
+/* counter start */
+
+/* counter end */
+
+/* what you learn start */
+.what-you-learn .header {
+  font-family: var(--heading-font);
+  font-weight:700;
+  font-size: 30px;
+}
+
+.what-you-learn button {
+ padding:10px 20px;
+ background: #b4f1e5;
+ border: 0;
+ border-radius: 5px;
+ margin-right: 5px;
+ font-size: 30px;
+ color: #1d7c69;
+ cursor: pointer;
+ transition: 0.4s;
+}
+
+.what-you-learn button:hover {
+  background: #6fe4cc;
+  color: white;
+}
+/* what you learn end */
+
+/* course syllabus start */
+
+/* course syllabus end */
+
+/* course benefit start */
+.benefit {
+  background-color: blueviolet;
+}
+/* course benefit end */
+
+/* pricing start */
+.pricing {
+  background-color: goldenrod;
+}
+/* pricing end */
+
+/* reviews start */
+.reviews {
+  background-color: darkred;
+}
+
+.reviews > .grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 'left right';
+}
+
+.reviews > .row > .first {
+  display: inline-block;
+  width: 77%;
+  padding: 30px;
+  grid-area: left;
+  justify-self: center;
+  margin-left: 20%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .reviews > .row > .first {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .reviews > .row > .first {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .reviews > .row > .first {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .reviews > .row > .first {
+    width: 300px;
+    margin: 0;
+  }
+  .reviews > .grid-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 'left';
+  }
+}
+
+.reviews > .row > .second {
+  display: inline-block;
+  width: 77%;
+  padding: 30px;
+  grid-area: right;
+  justify-self: center;
+  margin-right: 20%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .reviews > .row > .second {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .reviews > .row > .second {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .reviews > .row > .second {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .reviews > .row > .second {
+    width: 300px;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+.checked {
+  color: orange;
+}
+.taylor {
+  width: 80px;
+  height: 80px;
+}
+
+/* reviews end */
+
+/* enrol form start */
+
+.enrol-form > .row {
+  background-color: var(--color-secondary);
+  border-radius: 25px;
+  box-shadow: 0 2px 8px #0002;
+}
+@media only screen and (max-width: 1200px) {
+  .enrol-form > .row {
+    box-sizing: border-box;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .enrol-form > .row {
+    box-sizing: border-box;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+.enrol-form > .row > .row > h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.enrol-form > .row > .row > #progressLine {
+  box-sizing: border-box;
+  height: 2px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.animation {
+  transition: 1s linear;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.enrol-form > .row > .row > .progress-line:hover {
+  background-color: var(--color-primary);
+}
+.enrol-form > .row > .row > form > .input {
+  background: transparent;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  position: relative;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  border: transparent;
+  cursor: pointer;
+}
+.enrol-form > .row > .row > form > #enrolInput {
+  background: transparent;
+  box-sizing: border-box;
+  height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  position: relative;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  border: transparent;
+  cursor: pointer;
+}
+.btn-arrow {
+  background: transparent;
+  border: none;
+  font-size: large;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.btn-arrow .fa {
+  color: #fff;
+  font-size: large;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn-arrow .fa:hover {
+  color: var(--color-primary);
+}
+/* enrol form end */
+
+/* course instructor start */
+.course-instructor {
+  background-color: darkslateblue;
+}
+/* course instructor end */
+
+/* footer start */
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.footer-block .footer-paragraph {
+  font-family: var(--paragraph-font);
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #5c6b56;
+  grid-area: paragraph;
+  margin-bottom: 30px;
+}
+.footer-header {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.socials {
+  padding-inline: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.socials > a > .fa {
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  color: #5c6b56;
+  background: #f8f9fa;
+  border-radius: 50%;
+  padding-left: 14px;
+  padding-top: 14px;
+  transition: all 0.3s;
+  cursor: pointer;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  shape-rendering: auto;
+}
+.socials a:not(:last-child) {
+  margin-right: 15px;
+}
+.socials > a > .fa:hover {
+  background: var(--color-secondary);
+  color: #f8f9fa;
+}
+
+.subscribe-form {
+  float: left;
+  padding: 10%;
+  position: sticky;
+}
+
+.footer-block > .row > .col-first > .logo {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.footer-block > .row > .col-first > .socials {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-block > .row > .col-first {
+  max-width: 350px;
+}
+.footer-block > .row > .col-second {
+  max-width: 350px;
+}
+.footer-block > .row > .col-third {
+  max-width: 350px;
+}
+.footer-block > .row > .col-fourth {
+  max-width: 350px;
+}
+
+.footer-block .meniu-link-btn {
+  padding: 15px 5px 15px;
+  color: #5c6b56;
+  text-decoration: none;
+  line-height: 32px;
+  transition: all 0.3s;
+  cursor: pointer;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.footer-block .meniu-link-btn:hover {
+  padding-left: 15px;
+  color: var(--color-secondary);
+}
+
+.col-second {
+  list-style-type: none;
+}
+.col-second > .h2 {
+  margin-bottom: 20px;
+}
+.col-third {
+  list-style-type: none;
+}
+
+.footer-block .h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-subscribe-form {
+  height: 50px;
+  max-width: 350px;
+  position: relative;
+}
+
+.footer-subscribe-form > .btn {
+  top: 0;
+  right: 0;
+  position: absolute;
+  font-size: 18px;
+  background-color: #fbc006;
+  color: #fff;
+  border: transparent;
+  border-radius: 50px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#email {
+  position: relative;
+  font-size: 18px;
+  float: left;
+  max-width: 350px;
+  background-color: var(--color-secondary);
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 0 20px;
+}
+input::placeholder {
+  color: #fff;
+}
+
+.footer-subscribe-form > .btn:hover {
+  color: black;
+}
+
+/* footer end */
+
+/* back-to-top start */
+
+.to-top .fa {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  float: right;
+  height: 35px;
+  width: 35px;
+  justify-content: center;
+  color: #5c6b56;
+  background: #f8f9fa;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding-left: 12px;
+  padding-top: 8px;
+  font-size: 20px;
+  color: #fff;
+  background: var(--color-primary);
+  border: transparent;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #0002;
+}
+.to-top.up {
+  visibility: visible;
+  z-index: 9999;
+}
+.to-top .fa:hover {
+  box-shadow: 0 2px 6px #0007;
+  background-color: rgb(255, 203, 135);
+}
+/* back-to-top end */
