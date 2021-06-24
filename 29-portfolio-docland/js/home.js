@@ -3,6 +3,7 @@ import { Carousel1 } from './components/carusel/carouselLearn.js';
 import { Interface } from './components/carusel/interfase.js';
 import { renderTimer } from './components/timer/timer.js';
 import { wahtYouLearnData } from './data/wahtYouLearnData.js';
+import { BenefitsData } from './data/benefitsData.js';
 
 // header import start
 import { header } from './components/header/Header.js';
