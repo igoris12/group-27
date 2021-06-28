@@ -2,6 +2,7 @@
   font-family: var(--heading-font);
   font-weight: 700;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .benefit button {
@@ -19,4 +20,66 @@
 .benefit button:hover {
   background: #6fe4cc;
   color: white;
+}
+
+.benefit {
+  width: 100%;
+}
+
+.benefit .gallery {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.benefit .gallery .list {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.benefit .list > .item {
+  width: 100%;
+  float: left;
+  border-radius: 10px;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.benefit .item {
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.benefit .item .img {
+  text-align: center;
+}
+
+.benefit .item img {
+  width: 60%;
+  margin-top: 35%;
+}
+
+.benefit .item .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 30px 20px 20px;
+}
+
+.benefit .content a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--heading-font);
+  font-size: 20px;
+}
+
+.benefit .content p {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
 }
