@@ -2,6 +2,7 @@
   font-family: var(--heading-font);
   font-weight: 700;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .benefit button {
@@ -21,10 +22,30 @@
   color: white;
 }
 
+.benefit {
+  width: 100%;
+}
+
 .benefit .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 23px;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.benefit .gallery .list {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.benefit .list > .item {
+  width: 100%;
+  float: left;
+  border-radius: 10px;
+  transition: 0.5s;
+  z-index: -1;
 }
 
 .benefit .item {
@@ -37,7 +58,6 @@
 
 .benefit .item .img {
   text-align: center;
-  background-color: orange;
 }
 
 .benefit .item img {
