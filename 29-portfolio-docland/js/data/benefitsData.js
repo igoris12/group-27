@@ -1,5 +1,5 @@
 const BenefitsData = {
-    imgPath: "/img/course - benefit - img /",
+    imgPath: "/img/course-benefit-img/",
     itemsInScrean: [
         {
             minWidth: 0,
@@ -11,6 +11,24 @@ const BenefitsData = {
         },
         {
             minWidth: 990,
+            itemsNumber: 3
+        },
+        {
+            minWidth: 1100,
+            itemsNumber: 4
+        }],
+
+    itemsInScrean: [
+        {
+            minWidth: 0,
+            itemsNumber: 1
+        },
+        {
+            minWidth: 880,
+            itemsNumber: 2
+        },
+        {
+            minWidth: 1100,
             itemsNumber: 3
         }],
     list: [
@@ -34,6 +52,11 @@ const BenefitsData = {
             title: 'Flexible Deadline',
             color: '#ae88e6',
 
+        }, {
+            src: 'mentoring.png',
+            alt: 'Icon',
+            title: '1-1 Mentoring',
+            color: '#e9e6ff',
         },
         {
             src: 'projectReviews.png',
@@ -42,12 +65,7 @@ const BenefitsData = {
             color: '#fff6db',
 
         },
-        {
-            src: 'mentoring.png',
-            alt: 'Icon',
-            title: '1-1 Mentoring',
-            color: '#e9e6ff',
-        },
+
     ]
 }
 
