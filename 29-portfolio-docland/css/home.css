@@ -90,15 +90,34 @@ p {
 /* pricing end */
 
 /* reviews start */
-.reviews {
-  background-color: darkred;
+.reviews .header {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
+.reviews button {
+  padding: 10px 20px;
+  background: #b4f1e5;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 30px;
+  color: #1d7c69;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.reviews button:hover {
+  background: #6fe4cc;
+  color: white;
+}
+
+.reviews {
+  width: 100%;
+}
 .reviews > .grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
-  grid-template-areas: 'left right';
 }
 
 .reviews > .row > .first {
@@ -110,35 +129,6 @@ p {
   margin-left: 20%;
   border-radius: 20px;
   background-color: #fff;
-}
-@media only screen and (max-width: 1200px) {
-  .reviews > .row > .first {
-    width: 400px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .reviews > .row > .first {
-    width: 300px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .reviews > .row > .first {
-    width: 300px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .reviews > .row > .first {
-    width: 300px;
-    margin: 0;
-  }
-  .reviews > .grid-container {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: 'left';
-  }
 }
 
 .reviews > .row > .second {
