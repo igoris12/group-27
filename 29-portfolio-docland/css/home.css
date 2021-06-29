@@ -151,31 +151,6 @@ p {
   border-radius: 20px;
   background-color: #fff;
 }
-@media only screen and (max-width: 1200px) {
-  .reviews > .row > .second {
-    width: 400px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .reviews > .row > .second {
-    width: 300px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .reviews > .row > .second {
-    width: 300px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .reviews > .row > .second {
-    width: 300px;
-    flex-direction: column;
-    margin: 0;
-  }
-}
 
 .checked {
   color: orange;
