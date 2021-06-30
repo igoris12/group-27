@@ -199,7 +199,7 @@ class CarouselReviews {
                     this.animationInProgress = false;
                 }, this.animationDuration);
             }
-        }, 4000)
+        }, 5000)
 
 
     }
