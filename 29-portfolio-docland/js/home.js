@@ -37,6 +37,9 @@ new Carousel1('#corouselLearn', Interface, wahtYouLearnData)
 import { progressLine } from './components/enrol-form/enrolForm.js';
 import { Carouselbenefits } from './components/benefit/benefitsCarusel.js';
 import { InterfaceBenfits } from './components/benefit/interfase.js';
+import { CarouselReviews } from './Reviews/Reviews.js';
+import { InterfaceReviews } from './Reviews/reviewsInterfase.js';
+import { ReviewsData } from './data/ReviewsData.js';
 progressLine();
 // enrol form import end
 
@@ -62,6 +65,7 @@ new Carouselbenefits("#corouselBenefits", InterfaceBenfits, BenefitsData);
 // benefit execution end
 
 // reviews execution start
+new CarouselReviews(".reviews .grid-container", InterfaceReviews, ReviewsData)
 // reviews execution end
 
 // enrol form execution start
