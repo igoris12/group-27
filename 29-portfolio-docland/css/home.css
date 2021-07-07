@@ -161,6 +161,66 @@ p {
   font-family: var(--paragraph-font);
 }
 
+/* bottom */
+
+.reviews .info {
+  text-align: center;
+}
+
+.reviews .infoLeft {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.reviews .infoLeft h2 {
+  color: #fbc006;
+  font-size: 60px;
+  font-family: var(--heading-font);
+  margin-bottom: 20px;
+}
+.reviews .infoLeft span {
+  font-size: 20px;
+  color: var(--color-paragraph);
+  font-family: var(--paragraph-font);
+  float: left;
+}
+
+.reviews .infoRight {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews .infoRight h2 {
+  color: #6fe4cc;
+  font-size: 60px;
+  font-family: var(--heading-font);
+  margin-bottom: 20px;
+}
+
+.reviews .infoRight span {
+  float: left;
+  font-size: 20px;
+  color: var(--color-paragraph);
+  font-family: var(--paragraph-font);
+}
+
+.reviews .btnContaner {
+  text-align: center;
+}
+
+.reviews .btnC {
+  background-color: var(--color-secondary);
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
 /* reviews end */
 
 /* enrol form start */
