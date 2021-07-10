@@ -255,8 +255,30 @@ p {
   cursor: pointer;
   background-color: var(--color-secondary);
   border-bottom: 1px solid white;
-
   animation-duration: 1s;
+}
+
+.enrol-form form input:focus {
+}
+
+.enrol-form form span {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 1px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: var(--color-primary);
+}
+
+@keyframes run {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .enrol-form form i {
@@ -264,10 +286,11 @@ p {
   right: 10px;
   top: 10px;
   color: white;
+  transition: 0.5s;
 }
 
 .enrol-form form i:hover {
-  color: var(--color-primary);
+  color: white;
 }
 
 @media (max-width: 575px) {
@@ -279,10 +302,6 @@ p {
   .enrol-form .row {
     padding: 40px;
   }
-}
-
-.enrol-form form input:focus {
-  border-bottom: 1px solid var(--color-primary);
 }
 
 /* enrol form end */

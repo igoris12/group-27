@@ -40,6 +40,7 @@ import { InterfaceBenfits } from './components/benefit/interfase.js';
 import { CarouselReviews } from './Reviews/Reviews.js';
 import { InterfaceReviews } from './Reviews/reviewsInterfase.js';
 import { ReviewsData } from './data/ReviewsData.js';
+import { progressBar } from './components/form.js';
 progressLine();
 // enrol form import end
 
@@ -69,4 +70,5 @@ new CarouselReviews(".reviews .grid-container", InterfaceReviews, ReviewsData)
 // reviews execution end
 
 // enrol form execution start
+progressBar()
 // enrol form execution end
