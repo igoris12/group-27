@@ -258,9 +258,6 @@ p {
   animation-duration: 1s;
 }
 
-.enrol-form form input:focus {
-}
-
 .enrol-form form span {
   display: inline-block;
   position: absolute;
@@ -281,6 +278,15 @@ p {
   }
 }
 
+@keyframes runBack {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
 .enrol-form form i {
   position: absolute;
   right: 10px;
@@ -290,7 +296,7 @@ p {
 }
 
 .enrol-form form i:hover {
-  color: white;
+  color: var(--color-primary);
 }
 
 @media (max-width: 575px) {

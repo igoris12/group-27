@@ -3,11 +3,14 @@ function progressBar() {
     const input = document.getElementById('input')
 
     input.addEventListener('focus', e => {
-
-        if (focus) {
-            span.style.animationName = 'run'
-        }
+        span.style.animationName = 'run'
     })
+
+    input.addEventListener('blur', e => {
+        span.style.animationName = 'runBack'
+    })
+
+
 
 
 }
