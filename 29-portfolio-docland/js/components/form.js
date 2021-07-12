@@ -9,10 +9,6 @@ function progressBar() {
     input.addEventListener('blur', e => {
         span.style.animationName = 'runBack'
     })
-
-
-
-
 }
 
 export { progressBar }
