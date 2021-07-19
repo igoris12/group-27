@@ -1,5 +1,5 @@
 const BenefitsData = {
-    imgPath: "../img/course-benefit-img/",
+    imgPath: "img/course-benefit-img/",
     itemsInScrean: [
         {
             minWidth: 0,
