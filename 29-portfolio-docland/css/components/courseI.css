@@ -1,0 +1,30 @@
+.course-instructor .header {
+  font-size: 35px;
+  text-align: center;
+  font-family: var(--heading-font);
+}
+
+.course-instructor .first {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-instructor .first img {
+}
+
+.course-instructor .first h3 {
+}
+
+.course-instructor .first h4 {
+}
+
+.course-instructor .first ul {
+}
+
+.course-instructor .first p {
+}
+/* second */
+.course-instructor .second {
+  display: flex;
+  flex-direction: column;
+}
