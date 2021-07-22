@@ -17,7 +17,7 @@
 @import './components/carouselLearn.css';
 @import './components/pricong.css';
 @import './components/benefits.css';
-@import './components/courseI.css';
+@import './components/courseInstructor.css';
 /* CUSTOM STYLES FOR HOME PAGE GOES BELOW THIS COMMENT */
 
 /* header start */
@@ -314,9 +314,7 @@ p {
 /* enrol form end */
 
 /* course instructor start */
-.course-instructor {
-  background-color: darkslateblue;
-}
+
 /* course instructor end */
 
 /* footer start */
