@@ -33,5 +33,6 @@
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     }
-  }
+  },
+  "dependencies": {}
 }
